@@ -115,6 +115,9 @@ const ThemeProvider: FunctionComponent<{ children: ReactNode }> = ({ children })
                         color: '#00bcd4',
                         backgroundColor: 'transparent',
                         fontWeight: 600
+                    },
+                    'body': {
+                        backgroundColor: '#EEC643'
                     }
                 }}
             />
