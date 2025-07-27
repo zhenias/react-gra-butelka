@@ -5,7 +5,6 @@ import SelectPlayers from "./view/SelectPlayers/SelectPlayers";
 export default function Home() {
   return (
     <ThemeProvider>
-      <Processing />
       <SelectPlayers />
     </ThemeProvider>
   );
