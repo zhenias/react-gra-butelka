@@ -1,11 +1,11 @@
-import Image from "next/image";
-import ThemeProvider from "@/app/components/Context/Theme";
-import Processing from "@/app/components/Processing/Processing";
+import ThemeProvider from "@/app/context/Theme";
+import Processing from "@/app/processing/Processing";
+import SelectPlayers from "./view/SelectPlayers/SelectPlayers";
 
 export default function Home() {
   return (
     <ThemeProvider>
-      <Processing />
+      <SelectPlayers />
     </ThemeProvider>
   );
 }
